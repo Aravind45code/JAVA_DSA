@@ -1,0 +1,3 @@
+List is an interface implemented by ArrayList,Linkedlist,Vector.
+The ArrayList and Linkedlist implementations are not synchronized where as the Vector Implementation is synchronized.
+Stack is a child class of Vector.
