@@ -90,9 +90,13 @@ class BST {
 			// If there is no succ, then assign
 			// succ.right to succParent.right
 			if (succParent != root)
-				succParent.left = succ.right;
+				{
+				    succParent.left = succ.right;
+				}
 			else
-				succParent.right = succ.right;
+				{
+				    succParent.right = succ.right;
+				}
         succ.right=null;
 
 			// Copy Successor Data to root
