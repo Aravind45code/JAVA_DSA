@@ -14,7 +14,9 @@ class Node{
 public class Inorder {
   public static void printInorder(Node node){
     if(node==null)
-     return;
+     {
+         return;
+     }
      printInorder(node.left);
      System.out.println(node.data+" ");
      printInorder(node.right);
